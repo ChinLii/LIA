@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2d39c399-0e30-4bd5-8006-1620bfe57643}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{8439b1f5-39af-46c6-ad88-b19aad9aff2a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\views">
+      <UniqueIdentifier>{d3598bf5-903e-4e23-9fd8-5ae62ce65201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\views">
+      <UniqueIdentifier>{c17acd44-cf4c-4870-bfce-22d8d0d851e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{8a14300a-1f43-4e30-a91e-493616882db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{9ea08c2b-bde3-49d3-83b9-82cad9c34d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{3176ff90-5b52-4992-9469-f0e3fb73fa2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\helpers">
+      <UniqueIdentifier>{b3cf4bba-0c1c-45dc-87b5-0814f032f3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dialogs">
+      <UniqueIdentifier>{92e86214-5928-4d42-bf27-633ea9d94c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dialogs">
+      <UniqueIdentifier>{0be3c56c-1dd1-46db-90dd-917a477b78ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image_modes">
+      <UniqueIdentifier>{385201ac-4966-4bdb-afa1-3f417147dfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image_modes">
+      <UniqueIdentifier>{4478ba49-736c-4008-8f1a-a0fda3c1b8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\others">
+      <UniqueIdentifier>{2aafd8d0-5ba0-4296-a3fe-42eb1af548d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\others">
+      <UniqueIdentifier>{bc5e9d4a-dc57-4b03-91f7-3897b59eaf8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_lia.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_homeview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_homeview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_abstractview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_abstractview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_newprojectdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_newprojectdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_projectview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_projectview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_imageview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_imageview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_folderview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_folderview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_importprojectdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_importprojectdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_newfolderdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_newfolderdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uploadimagedialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_uploadimagedialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="abstractview.cpp">
+      <Filter>Source Files\views</Filter>
+    </ClCompile>
+    <ClCompile Include="projectview.cpp">
+      <Filter>Source Files\views</Filter>
+    </ClCompile>
+    <ClCompile Include="imageview.cpp">
+      <Filter>Source Files\views</Filter>
+    </ClCompile>
+    <ClCompile Include="homeview.cpp">
+      <Filter>Source Files\views</Filter>
+    </ClCompile>
+    <ClCompile Include="folderview.cpp">
+      <Filter>Source Files\views</Filter>
+    </ClCompile>
+    <ClCompile Include="folder.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="project.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="dataimage.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="imagehelper.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="filemanager.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="uploadimagedialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="newprojectdialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="newfolderdialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="importprojectdialog.cpp">
+      <Filter>Source Files\dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="fatdata.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="fibrosisdata.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="originalmode.cpp">
+      <Filter>Source Files\image_modes</Filter>
+    </ClCompile>
+    <ClCompile Include="processedmode.cpp">
+      <Filter>Source Files\image_modes</Filter>
+    </ClCompile>
+    <ClCompile Include="imagemode.cpp">
+      <Filter>Source Files\image_modes</Filter>
+    </ClCompile>
+    <ClCompile Include="editablemode.cpp">
+      <Filter>Source Files\image_modes</Filter>
+    </ClCompile>
+    <ClCompile Include="fatoption.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="fatprocessor.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="fibrosisfeatures.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="fibrosisprocessor.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>Source Files\others</Filter>
+    </ClCompile>
+    <ClCompile Include="imagepanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_imagepanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_imagepanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dummywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dummywidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dummywidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="stringhelper.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="lia.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lia.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="abstractview.h">
+      <Filter>Header Files\views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="folderview.h">
+      <Filter>Header Files\views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imageview.h">
+      <Filter>Header Files\views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="projectview.h">
+      <Filter>Header Files\views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="folder.h">
+      <Filter>Header Files\models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="project.h">
+      <Filter>Header Files\models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="importprojectdialog.h">
+      <Filter>Header Files\dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newfolderdialog.h">
+      <Filter>Header Files\dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newprojectdialog.h">
+      <Filter>Header Files\dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uploadimagedialog.h">
+      <Filter>Header Files\dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="homeview.h">
+      <Filter>Header Files\views</Filter>
+    </CustomBuild>
+    <CustomBuild Include="manager.h">
+      <Filter>Header Files\others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files\others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fatoption.h">
+      <Filter>Header Files\others</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imagepanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dummywidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_lia.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataimage.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="filemanager.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="imagehelper.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="fatdata.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="fibrosisdata.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="imagemode.h">
+      <Filter>Header Files\image_modes</Filter>
+    </ClInclude>
+    <ClInclude Include="originalmode.h">
+      <Filter>Header Files\image_modes</Filter>
+    </ClInclude>
+    <ClInclude Include="processedmode.h">
+      <Filter>Header Files\image_modes</Filter>
+    </ClInclude>
+    <ClInclude Include="editablemode.h">
+      <Filter>Header Files\image_modes</Filter>
+    </ClInclude>
+    <ClInclude Include="fibrosisprocessor.h">
+      <Filter>Header Files\others</Filter>
+    </ClInclude>
+    <ClInclude Include="blobfeatures.h">
+      <Filter>Header Files\others</Filter>
+    </ClInclude>
+    <ClInclude Include="fatprocessor.h">
+      <Filter>Header Files\others</Filter>
+    </ClInclude>
+    <ClInclude Include="fibrosisfeatures.h">
+      <Filter>Header Files\others</Filter>
+    </ClInclude>
+    <ClInclude Include="stringhelper.h">
+      <Filter>Header Files\helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
